@@ -18,6 +18,10 @@
       <img src="./assets/images/logo.svg" alt="logo">
     </div>
     <nav class="nav">
+      <div class="blur"></div>
+      <div class="close-btn">
+        <img src="./assets/images/icon-menu-close.svg" alt="close-btn">
+      </div>
       <ul>
         <li><a href="#" class="navlinks">home</a></li>
         <li><a href="#" class="navlinks">new</a></li>
@@ -26,12 +30,16 @@
         <li><a href="#" class="navlinks">categories</a></li>
       </ul>
     </nav>
+    <div class="hamburger">
+      <img src="./assets/images/icon-menu.svg" alt="hamburger">
+    </div>
   </header>
   <section class="showcase">
     <article>
       <picture>
-        <!-- <source media="(min-width: 768px)" srcset="./assets/images/image-web-3-mobile.jpg.jpg" sizes=""> -->
-        <img src="./assets/images/image-web-3-desktop.jpg" alt="">
+        <source media="(max-width: 768px)" srcset="./assets/images/image-web-3-mobile.jpg">
+        <source media="(min-width: 769px)" srcset="./assets/images/image-web-3-desktop.jpg">
+        <img src="./assets/images/image-web-3-desktop.jpg" alt="image-web-3-desktop">
       </picture>
 
       <div class="content-container">
