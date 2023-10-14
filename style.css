@@ -198,7 +198,6 @@ img {
         display: block;
         opacity: 0;
         z-index: -9999;
-        transition: all 0.3s ease-in-out;
     }
 
     .nav ul {
@@ -226,11 +225,12 @@ img {
         width: 23vw;
     }
 
-    .header .nav .close-btn {
+    .header .nav.open .close-btn {
+        display: block;
         position: fixed;
         width: 3rem;
         right: 1.5rem;
-        /* margin: 1.5rem */
+        margin: 4rem 1.5rem;
         cursor: pointer;
     }
 
